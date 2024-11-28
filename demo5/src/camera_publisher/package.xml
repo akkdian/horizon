@@ -1,0 +1,19 @@
+<package format="2">
+  <name>camera_publisher</name>
+  <version>0.0.1</version>
+  <description>
+    The camera_publisher package publishes images from a camera to a ROS 2 topic.
+  </description>
+  <maintainer email="your.email@todo.todo">your_name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>

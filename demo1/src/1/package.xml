@@ -1,0 +1,20 @@
+<!-- camera_streamer/package.xml -->
+<?xml version="1.0"?>
+<package format="2">
+  <name>camera_streamer</name>
+  <version>0.1.0</version>
+  <description>The camera_streamer package</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>builtin_interfaces</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>
